@@ -1,45 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:background="#E5B890">
 
     <TextView
         android:id="@+id/statusText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Not Connected"
-        android:textSize="18sp"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/btnConnect"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Connect to Microbit"/>
-
-    <EditText
-        android:id="@+id/inputText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Type message to send..."
-        android:layout_marginTop="12dp"/>
+        android:layout_height="426dp"
+        android:src="@drawable/cowboy1" />
 
     <Button
         android:id="@+id/btnSend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send"
+        android:text="Play"
         android:layout_marginTop="10dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="X Y Z:"
-        android:textStyle="bold"
-        android:layout_marginTop="18dp"/>
 
     <TextView
         android:id="@+id/xyzText"
@@ -48,5 +37,11 @@
         android:text="X=?   Y=?   Z=?"
         android:textSize="18sp"
         android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Historic Results" />
 
 </LinearLayout>
