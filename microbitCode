@@ -1,0 +1,22 @@
+def on_uart_data_received():
+    global msg
+    msg = bluetooth.uart_read_until(serial.delimiters(Delimiters.NEW_LINE))
+    basic.show_string(msg)
+    bluetooth.uart_write_line("microbit got: " + msg)
+bluetooth.on_uart_data_received(serial.delimiters(Delimiters.NEW_LINE),
+    on_uart_data_received)
+
+def on_button_pressed_b():
+    basic.show_string(control.device_name())
+input.on_button_pressed(Button.B, on_button_pressed_b)
+
+message = ""
+msg = ""
+bluetooth.start_uart_service()
+
+def on_forever():
+    global message
+    message = "" + str(input.acceleration(Dimension.X)) + "," + ("" + str(input.acceleration(Dimension.Y))) + "," + ("" + str(input.acceleration(Dimension.Z)))
+    bluetooth.uart_write_line(message)
+    basic.pause(200)
+basic.forever(on_forever)
