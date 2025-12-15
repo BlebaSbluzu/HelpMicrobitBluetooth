@@ -1,10 +1,6 @@
-# 📱 Use the microbit app
+# 🤠 Cowboy Game🤠
 
-> **Use it to connect your micro:bit to your phone first.**
+> **Pair your microbit with the microbit app first**
 
-Once you’ve done that, **your own micro:bit apps will work properly**.
-> **No this doesnt mean your dependent on the app**
+> **Can you survive a duel? 😏😎**
 
-**Run this app once → then run your app.**
-
-That’s it.
