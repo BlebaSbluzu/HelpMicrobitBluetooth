@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "646407673944",
+    "project_id": "cowboy-3b0f5",
+    "storage_bucket": "cowboy-3b0f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646407673944:android:33d43de65b5209edb0122d",
+        "android_client_info": {
+          "package_name": "com.example.btmicrobitapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVj4zlFO31C3ShkGgqt6NWmea3UfT7MTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646407673944:android:8a9486dc7b356c86b0122d",
+        "android_client_info": {
+          "package_name": "com.example.cowboy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVj4zlFO31C3ShkGgqt6NWmea3UfT7MTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

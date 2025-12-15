@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#E5B890">
+    android:background="#E5B890"
+    >
 
     <TextView
         android:id="@+id/statusText"
@@ -15,7 +16,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Not Connected"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/brown_300"
+        />
 
     <ImageView
         android:id="@+id/imageView"
@@ -28,7 +31,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Play"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white_100"/>
 
     <TextView
         android:id="@+id/xyzText"
@@ -36,12 +40,16 @@
         android:layout_height="wrap_content"
         android:text="X=?   Y=?   Z=?"
         android:textSize="18sp"
-        android:layout_marginTop="6dp"/>
+        android:layout_marginTop="6dp"
+        android:textColor="@color/brown_300"
+        />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View Historic Results" />
+        android:text="View Historic Results"
+        android:textColor="@color/white_100"/>
+
 
 </LinearLayout>

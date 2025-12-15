@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#E5B890">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOP 10 FASTEST DUELS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:textColor="@color/brown_300"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <TextView
+            android:id="@+id/leaderboardResultsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Loading results..."
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/brown_300"/>
+
+
+
+    </ScrollView>
+
+
+
+        <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Menu"
+        android:textColor="@color/white_100"/>
+</LinearLayout>
